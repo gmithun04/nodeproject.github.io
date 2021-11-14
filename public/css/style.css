@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+.logo{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    margin: 5px;
+    
+}
+.navleft{
+    /* background-color: aqua; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.navleft li{
+    list-style: none;
+    padding: 26px 30px;
+    text-decoration: none;
+}
+.navleft li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navleft li a:hover{
+    color: rgb(179, 174, 174);
+    font-weight: bold;
+}
+.navright{
+    /* background-color: burlywood; */
+    width: 30%;
+    text-align: right;
+    padding: 0 40px;
+    
+}
+#search{
+    padding: 2px 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn{
+    padding: 3px 4px;
+    margin: 2px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+.btn:hover{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(179, 174, 174);
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;  
+}
+.first-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 10px;
+}
+.first-para{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.second-para{
+    width: 20%;
+}
+.second-para img{
+    width: 150%;
+    display: block;
+    margin: auto;
+}
+.big-text{
+    font-size: 30px;
+}
+.padd10{
+    padding: 20px;
+}
+.third-para{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    max-width: 70%;
+    margin: auto;
+    flex-direction: column;
+
+}
+.thumbnail img{
+    width: 50px;
+}
